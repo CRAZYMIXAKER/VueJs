@@ -4,14 +4,14 @@
     <my-input
         v-model="post.title"
         placeholder="Название"/>
-      <my-input
-          v-model="post.body"
-          placeholder="Описание"/>
-        <my-button
-            @click="createPost"
-            style="align-self: flex-end;   margin-top: 15px;">
-          Create
-        </my-button>
+    <my-input
+        v-model="post.body"
+        placeholder="Описание"/>
+    <my-button
+        @click="createPost"
+        style="align-self: flex-end;   margin-top: 15px;">
+      Create
+    </my-button>
   </form>
 </template>
 
@@ -35,7 +35,7 @@ export default {
         body: '',
       }
     },
-  }
+  },
 }
 </script>
 
